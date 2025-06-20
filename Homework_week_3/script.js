@@ -6,7 +6,7 @@ console.log(person1);
 let person2 = {...person1}
 console.log(person2);
 person2.favoriteColor = "blue";
-console.log(person1);
+console.log(person2);
 
 function introduction(name, favoriteColor) {
     console.log(`Hello, my name is ${name} and my favorite color is ${favoriteColor}.`);
